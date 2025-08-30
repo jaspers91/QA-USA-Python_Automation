@@ -41,9 +41,9 @@ class TestUrbanRoutes:
         pass
 
     def test_order_2_ice_creams(self):
+        number_of_ice_creams = 2
         # Add in S8
-        for ice_cream in range(2):
-            # Add in S8
+        for ice_cream in range(number_of_ice_creams):
             print(f"function {ice_cream + 1} number created for order of ice creams")
             pass
 
